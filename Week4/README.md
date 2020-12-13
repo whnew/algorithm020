@@ -1,4 +1,5 @@
-  public static int findMid(int[] array){
+使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+    public static int findMid(int[] array){
         int left = 0;
         int right = array.length-1;
         int start = array[0];
